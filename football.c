@@ -29,7 +29,6 @@ int main() {
         printf("Enter the NFL score: ");
         scanf("%d", &score);
 
-        // Terminate if the score is 1 or less
         if (score <= 1) {
             printf("Exiting the program.\n");
             break;
